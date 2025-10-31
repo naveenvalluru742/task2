@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Else{
+	public static void main(String[]args){
+	Scanner obj=new Scanner(System.in);
+
+	System.out.println("Emter user id");
+	String user_id=obj.nextLine();
+
+	System.out.println("Emter pwd");
+	String pwd=obj.nextLine();
+	
+	if(user_id.equals("java") && pwd.equals("Ameerpet"))
